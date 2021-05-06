@@ -1,10 +1,14 @@
-# landing_page
-#######   NAV BAR
-the landing page has a dynamically created nav bar
-Nav bar changes color when active
-Nav bar is a sticky type of navigation
-###########SECTIONS
-the sections are collapsible
-the sectionas change color when active
-###########FOOTER
-has a top of page scroll button
+
+Landing-page
+NAVIGATION BAR
+•dynamically created nav bar
+•nav bar is sticky as th euser scrolls down
+•active states are indicated in different color
+•clicking the links on the nav bar takes the user to the respective sections
+SECTIONS:
+•the sections are collapsible
+•the viewed section is displayed in diiferent color stating that it is active
+FOOTER:
+•has scroll to top button
+DEPENDENCIES:
+Prettier
