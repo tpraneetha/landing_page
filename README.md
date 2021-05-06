@@ -12,3 +12,11 @@ FOOTER:
 •has scroll to top button
 DEPENDENCIES:
 Prettier
+References:
+w3 schools
+MDN documentation
+running the project in VS Code:
+open the project in VS Code
+click the terminal window
+type live server
+
