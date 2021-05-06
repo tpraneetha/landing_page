@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- navigation links -->
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav_links"></ul>
+      </nav>
+    </header>
+    <main>
+      <!-- title of the page -->
+      <header class="section_title">
+        <h1>title</h1>
+      </header>
+      <!-- collapsible sections -->
+      <section class="sectionWrapper">
+        <button type="button" class="collapsible">Open section1</button>
+        <div
+          id="section-1"
+          style="display: block"
+          class="sections"
+          data-nav="Section1"
+        >
+          <h2>section 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo est
+            eveniet vero esse officia ad voluptas rerum quisquam accusantium
+            debitis dolorum perspiciatis error, nostrum architecto atque fugiat
+            ullam earum eaque?
+          </p>
+        </div>
+        <button type="button" class="collapsible">open section2</button>
+        <div
+          id="section-2"
+          style="display: block"
+          class="sections"
+          data-nav="Section2"
+        >
+          <h2>section 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo est
+            eveniet vero esse officia ad voluptas rerum quisquam accusantium
+            debitis dolorum perspiciatis error, nostrum architecto atque fugiat
+            ullam earum eaque?
+          </p>
+        </div>
+        <button type="button" class="collapsible">Open section3</button>
+        <div
+          id="section-3"
+          style="display: block"
+          class="sections"
+          data-nav="Section3"
+        >
+          <h2>section 3</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo est
+            eveniet vero esse officia ad voluptas rerum quisquam accusantium
+            debitis dolorum perspiciatis error, nostrum architecto atque fugiat
+            ullam earum eaque?
+          </p>
+        </div>
+        <button type="button" class="collapsible">Open section4</button>
+        <div
+          id="section-4"
+          style="display: block"
+          class="sections"
+          data-nav="Section4"
+        >
+          <h2>section 4</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo est
+            eveniet vero esse officia ad voluptas rerum quisquam accusantium
+            debitis dolorum perspiciatis error, nostrum architecto atque fugiat
+            ullam earum eaque?
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- footer with scroll to top button -->
+    <footer class="footer">
+      <p class="footer_item">&copyrights</p>
+      <button onclick="scrollToTop()" id="scrollToTopButton" title="Go to Top">
+        Top
+      </button>
+    </footer>
+  </body>
+  <script src="Js/app.js"></script>
+</html>
